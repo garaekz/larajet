@@ -16,11 +16,11 @@ import { Home, LineChart, Menu, Package, PlaneTakeoff, ShoppingCart, Users } fro
         </SheetTrigger>
         <SheetContent side="left" class="flex flex-col">
             <nav class="grid gap-2 text-lg font-medium">
-                <Link to="/dashboard" class="flex items-center gap-2 text-lg font-semibold mb-8">
+                <Link href="/dashboard" class="flex items-center gap-2 text-lg font-semibold mb-8">
                 <PlaneTakeoff class="h-6 w-6" />
                 <span>Larajet</span>
                 </Link>
-                <Link to="/dashboard"
+                <Link href="/dashboard"
                     class="mx-[-0.65rem] flex items-center gap-4 rounded-xl px-3 py-2 text-muted-foreground hover:text-foreground"
                     :class="route().current('dashboard') ? 'bg-muted text-primary' : 'text-muted-foreground'">
                 <Home class="h-5 w-5" />
