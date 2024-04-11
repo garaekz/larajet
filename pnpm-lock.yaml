@@ -29,6 +29,9 @@ dependencies:
   tailwindcss-animate:
     specifier: ^1.0.7
     version: 1.0.7(tailwindcss@3.4.1)
+  vue3-google-login:
+    specifier: ^2.0.26
+    version: 2.0.26(vue@3.4.21)
 
 devDependencies:
   '@inertiajs/vue3':
@@ -1664,6 +1667,14 @@ packages:
     peerDependenciesMeta:
       '@vue/composition-api':
         optional: true
+    dependencies:
+      vue: 3.4.21
+    dev: false
+
+  /vue3-google-login@2.0.26(vue@3.4.21):
+    resolution: {integrity: sha512-BuTSIeSjINNHNPs+BDF4COnjWvff27IfCBDxK6JPRqvm57lF8iK4B3+zcG8ud6BXfZdyuiDlxletbEDgg4/RFA==}
+    peerDependencies:
+      vue: ^3.0.3
     dependencies:
       vue: 3.4.21
     dev: false
